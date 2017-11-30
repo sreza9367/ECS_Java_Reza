@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;StillUsingVairables&apos; to &apos;StillUsingVariables&apos;&#x0D;&#x0A;- Original project: &apos;ECSJavaProject&apos;&#x0D;&#x0A;- Original element: &apos;StillUsingVairables&apos;&#x0D;&#x0A;- Renamed element: &apos;StillUsingVariables&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;StillUsingVairables&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{StillUsingVairables.java[StillUsingVairables" matchStrategy="1" name="StillUsingVariables" qualified="false" references="true" similarDeclarations="false" stamp="1512066647946" textual="false" version="1.0"/>
+</session>
