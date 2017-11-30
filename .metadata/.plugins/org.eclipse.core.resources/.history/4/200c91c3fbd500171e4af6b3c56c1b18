@@ -11,7 +11,7 @@ public class MoreVariablesAndPrinting
 		myName = "Zed A. Shaw";
 		myAge = 16;     // not a lie
 		myHeight = 64;  // inches
-		myWeight = 163; // lbs
+		myWeight = 162; // lbs
 		myEyes = "Blue";
 		myTeeth = "White";
 		myHair = "Brown";
