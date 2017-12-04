@@ -20,6 +20,9 @@ public class DumbCalculator
 		third = keyboard.nextDouble();
 		
 		System.out.println("The average of the three numbers is " + ((first+second+third)/3));
+	
+		keyboard.close();
 	}
+	
 
 }

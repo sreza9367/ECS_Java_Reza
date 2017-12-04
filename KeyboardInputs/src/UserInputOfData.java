@@ -41,6 +41,7 @@ public class UserInputOfData
 		System.out.println("GPA: " + GPA);
 		System.out.println("Grade: " + grade);
 		
+		keyboard.close();
 	}
 
 }
