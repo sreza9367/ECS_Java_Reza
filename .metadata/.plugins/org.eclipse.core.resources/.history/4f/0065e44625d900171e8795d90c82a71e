@@ -14,9 +14,6 @@ public class TwoQuestions
 		System.out.println("Question 1) Is it an animal, vegetable, or mineral?");
 		answer1 = keyboard.next();
 		
-		System.out.println("Question 2) Is it bigger than a breadbox?");
-		answer2 = keyboard.next();
-		
 		if (answer1.equals("animal") && answer2.equals("no"))
 		{
 			System.out.println("Is it a squirrel?");
