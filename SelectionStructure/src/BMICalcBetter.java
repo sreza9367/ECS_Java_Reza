@@ -43,5 +43,7 @@ public class BMICalcBetter
 		{
 			System.out.println("You are obese.");
 		}
+		
+		keyboard.close();
 	}
 }
