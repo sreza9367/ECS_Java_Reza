@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class CollatzSequence 
+{
+	public static void main(String[] args) 
+	{
+		Scanner keyboard = new Scanner(System.in);
+		int value = 0;
+		
+		System.out.println("Let's create a COLLATZ Sequence!");
+		
+		System.out.println("Rules: ");
+		System.out.println("If the number is even, divide it by two.");
+		System.out.println("If the number is odd, multiply by 3 and add 1.");
+		System.out.println("Repat this until you reach 1");
+		System.out.println();
+		System.out.print("Starting Number: ");
+		value = keyboard.nextInt();
+		
+		if (value%2==0)
+		{
+			System.out.print(value/2);
+		}
+		else if(value%2==1)
+		{
+			System.out.print((value*3)+1);
+		}
+		do
+		{
+			System.out.println(value/2);
+		} while (value%2==0);
+		System.out.print((value*3)+1);
+		
+	}
+
+}
