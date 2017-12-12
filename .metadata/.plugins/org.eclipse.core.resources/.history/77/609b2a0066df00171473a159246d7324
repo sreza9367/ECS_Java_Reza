@@ -3,12 +3,12 @@ public class EvennessMethod
 {
 	public static void main(String[] args) 
 	{
-		for ( int n = 1; n <= 100; n = n + 1)
+		for ( int n = 0; n <= 100; n = n + 1)
 		{
 			
-				System.out.print(n + " ");
+				System.out.print(n);
 				String extra = check(n);
-				System.out.println(extra);
+				System.out.print(extra);
 		}
 			
 	}		
@@ -28,8 +28,7 @@ public class EvennessMethod
 				{
 					b = "<";
 				}
-				else 
-					b ="";
+				b ="";
 				
 				return b;
 			}	
@@ -41,8 +40,7 @@ public class EvennessMethod
 				{
 					d ="=";
 				}
-				else 
-					d="";
+				d="";
 				
 				return d;
 	}

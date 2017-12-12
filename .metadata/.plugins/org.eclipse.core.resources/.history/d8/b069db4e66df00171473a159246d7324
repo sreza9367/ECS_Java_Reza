@@ -6,7 +6,7 @@ public class EvennessMethod
 		for ( int n = 1; n <= 100; n = n + 1)
 		{
 			
-				System.out.print(n + " ");
+				System.out.print(n);
 				String extra = check(n);
 				System.out.println(extra);
 		}
