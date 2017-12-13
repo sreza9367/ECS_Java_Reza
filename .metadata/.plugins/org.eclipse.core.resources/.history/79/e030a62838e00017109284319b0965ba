@@ -13,15 +13,15 @@ public class FindingPrimes
 		System.out.println("What range would you like them in?");
 		System.out.println("(only positive integers 2 or greater)");
 		
-		System.out.print("Low end: ");
+		System.out.println("Low end: ");
 		low = keyboard.nextInt();
 		
-		System.out.print("High end: ");
+		System.out.println("High end: ");
 		high = keyboard.nextInt();
 		
 		for( int n = low ; n <= high ; n = n + 1 )
 		{
-			System.out.print(n + " ");
+			System.out.println("n");
 			String extra = prime(n);
 			System.out.println(extra);
 
